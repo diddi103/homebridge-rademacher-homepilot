@@ -122,7 +122,7 @@ function RademacherHomePilot(log, config, api) {
                             }
                         }
                         // thermostat
-                        else if(["35003064","32501812_A","35002319","13601000"].includes(data.deviceNumber))
+                        else if(["35003064","32501812_A","35002319","13601001"].includes(data.deviceNumber))
                         {
                             if (accessory === undefined) {
                                 self.addThermostatAccessory(data);
